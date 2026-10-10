@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Yajman Video Maker",
+  "short_name": "Yajman",
+  "description": "Create personalised Yajman videos on your device.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f7f3",
+  "theme_color": "#f4f7f3",
+  "icons": [
+    {
+      "src": "pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
