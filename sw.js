@@ -1,4 +1,4 @@
-const CACHE_NAME = 'yajman-pwa-v3';
+const CACHE_NAME = 'yajman-pwa-v4';
 const APP_BASE_URL = new URL('./', self.registration.scope);
 const appFile = (path) => new URL(path, APP_BASE_URL).href;
 const APP_SHELL = [
