@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Yajman Video Maker",
+    "slug": "yajman-video-maker",
+    "scheme": "yajmanvideomaker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yajman.videomaker",
+      "versionCode": 1,
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sharing",
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "appUrl": "https://nitish-deolia.github.io/100826-yajman-video-update/",
+      "router": {},
+      "eas": {
+        "projectId": "0c4a1218-d506-4e54-bdd2-1580d13f9975"
+      }
+    },
+    "owner": "nitish.deolia"
+  }
+}
